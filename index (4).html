@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sorin Rosca | Employability Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Newsreader:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f4ef; --bg-alt:#ffffff; --ink:#1c1b18; --muted:#6b675f;
+  --accent:#355e3b; --line:#dcd7cc; --max:920px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"Newsreader",Georgia,serif;background:var(--bg);color:var(--ink);line-height:1.6;font-size:18px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+.site-header{position:sticky;top:0;background:rgba(246,244,239,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);z-index:10}
+.header-inner{display:flex;align-items:center;justify-content:space-between;padding:16px 0}
+.brand{font-family:"Fraunces",serif;font-weight:700;font-size:20px;text-decoration:none;color:var(--ink)}
+.nav a{margin-left:22px;text-decoration:none;color:var(--muted);font-size:16px}
+.nav a:hover{color:var(--accent)}
+.hero{padding:90px 0 70px}
+.eyebrow{text-transform:uppercase;letter-spacing:.12em;font-size:13px;color:var(--accent);margin-bottom:18px}
+.hero h1{font-family:"Fraunces",serif;font-weight:700;font-size:clamp(48px,9vw,96px);line-height:.95;letter-spacing:-.02em}
+.lead{max-width:620px;margin-top:22px;font-size:22px;color:var(--muted)}
+.block{padding:70px 0;border-top:1px solid var(--line)}
+.block.alt{background:var(--bg-alt)}
+.block h2{font-family:"Fraunces",serif;font-weight:600;font-size:32px;margin-bottom:28px}
+.block p{max-width:680px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:18px}
+.card{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:22px;transition:transform .18s ease,border-color .18s ease}
+.block.alt .card{background:var(--bg-alt)}
+.card:hover{transform:translateY(-3px);border-color:var(--accent)}
+.card h3{font-family:"Fraunces",serif;font-weight:600;font-size:19px;margin-bottom:8px}
+.card p{font-size:16px;color:var(--muted)}
+.evidence{list-style:none;max-width:720px}
+.evidence li{padding:18px 0;border-bottom:1px solid var(--line);color:var(--muted)}
+.evidence span{display:block;font-family:"Fraunces",serif;font-weight:600;color:var(--ink);margin-bottom:4px}
+.contact-line{font-size:19px;margin-bottom:8px}
+.contact-line a{color:var(--accent)}
+.site-footer{border-top:1px solid var(--line);padding:30px 0;color:var(--muted);font-size:15px}
+@media(max-width:600px){.nav{display:none}body{font-size:17px}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">Sorin Rosca</a>
+    <nav class="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#evidence">Evidence</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<section id="top" class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Employability Skills Log &middot; Critical and Creative Thinking (BSM24001)</p>
+    <h1>Sorin Rosca</h1>
+    <p class="lead">Business student building skills in critical thinking, research and collaboration, working toward a career in human resource management.</p>
+  </div>
+</section>
+
+<section id="about" class="block">
+  <div class="wrap">
+    <h2>About</h2>
+    <p>I am a Business student at Ravensbourne University London. This portfolio evidences the employability skills I developed during the Critical and Creative Thinking module, drawn from the quiz, the group debate and this webpage project. My goal is to apply structured analysis and teamwork in a professional setting.</p>
+  </div>
+</section>
+
+<section id="skills" class="block alt">
+  <div class="wrap">
+    <h2>Employability Skills</h2>
+    <div class="grid">
+      <article class="card"><h3>Critical Thinking</h3><p>Assessed reasoning, logic and ethical frameworks through the module quiz.</p></article>
+      <article class="card"><h3>Research</h3><p>Sourced and referenced academic material using Harvard conventions.</p></article>
+      <article class="card"><h3>Teamwork &amp; Collaboration</h3><p>Worked in an interdisciplinary group to prepare a structured debate.</p></article>
+      <article class="card"><h3>Communication</h3><p>Delivered arguments clearly and responded to opposing views.</p></article>
+      <article class="card"><h3>Ethical &amp; Sustainability Reasoning</h3><p>Debated ethical and sustainability issues in the creative industries.</p></article>
+      <article class="card"><h3>Digital Skills</h3><p>Built and published this portfolio website on GitHub Pages.</p></article>
+      <article class="card"><h3>Problem-Solving</h3><p>Analysed contemporary challenges and proposed thoughtful solutions.</p></article>
+      <article class="card"><h3>Time Management</h3><p>Coordinated tasks and met submission deadlines across the module.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="evidence" class="block">
+  <div class="wrap">
+    <h2>Evidence from the Module</h2>
+    <ul class="evidence">
+      <li><span>Multiple-Choice Quiz</span> Tested critical thinking, logical reasoning, ethical frameworks and research strategy.</li>
+      <li><span>Group Debate</span> Built teamwork, communication and ethical reasoning through a structured debate on sustainability issues in the creative industries.</li>
+      <li><span>Employability Webpage</span> Developed digital and self-presentation skills by designing and publishing this portfolio.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="contact" class="block alt">
+  <div class="wrap">
+    <h2>Contact</h2>
+    <p class="contact-line">Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p class="contact-line">LinkedIn: <a href="#">linkedin.com/in/your-profile</a></p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>&copy; 2026 Sorin Rosca &middot; Critical and Creative Thinking (BSM24001)</p>
+  </div>
+</footer>
+
+</body>
+</html>
